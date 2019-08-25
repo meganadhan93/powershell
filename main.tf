@@ -5,7 +5,6 @@ provider "google" {
  region      = "us-west1"
 }
 
-terraform init
 
 // Terraform plugin for creating random ids
 resource "random_id" "instance_id" {
