@@ -1,0 +1,33 @@
+
+a) GPO to prevent software installation 
+
+Computer Configuration --> Administrative Templates --> Windows Components ---> Windows Installer ---> Turn off installer -->Disable windows installer for non managed application only.
+
+User Configuration --> Administrative Templates --> Windows Components ---> Windows Installer ---> Enable  "Always install with elevated privileges"
+
+
+
+b)provide temp access
+
+Computer Configuration” --> “Policies” --> “Windows Settings” --> “Security Settings”. Click on “Restricted Groups.” Right-click on “Restricted Groups” and select “Add Group
+
+Temp access can be managed  by Bit9 software effectively with timeoverride.
+
+
+c) GPO to manage softwares
+
+
+ create gpo to install/manage softwares :  User Configuration-->software setting---> software  installaation--> Select New –> Package
+
+
+d) For remote assistance 
+
+Computer Configuration ---> Administrative Templates ---> System ----> Remote Assistance--->Enable "configure solicated remote assitance" &  "Configure Offer Remote Assistance"
+
+
+
+
+
+
+
+
