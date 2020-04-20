@@ -1,3 +1,16 @@
+1 ) Auto assign DNS name for DNS.
+
+We can create Dynamic DNS with Route 53 .(or) 
+
+Create the private hosted zone
+Create a new IAM user and  AWS IAM Policy for a restricted Route 53 DNS Access
+create  shell  script to register the instance on startup
+
+
+
+
+
+4)
 
 a) GPO to prevent software installation 
 
@@ -23,6 +36,10 @@ c) GPO to manage softwares
 d) For remote assistance 
 
 Computer Configuration ---> Administrative Templates ---> System ----> Remote Assistance--->Enable "configure solicated remote assitance" &  "Configure Offer Remote Assistance"
+
+
+
+
 
 
 
